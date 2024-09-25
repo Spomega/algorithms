@@ -1,0 +1,17 @@
+{
+    "name": "algorithm/php",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joseph.davis",
+            "email": "spomegasys@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    }
+}
