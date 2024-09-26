@@ -7,16 +7,21 @@ class Anagram {
 
     public function anagramSortApproach($first, $second): bool
     {
+        // remove all spaces, set all chars to lowercase and split string into array
         $first = str_split(strtolower(str_replace(" ", "",$first)));
         $second = str_split(strtolower(str_replace(" ", "",$second)));
 
+        // check if number of characters are not the same return false
         if (count($first) != count($second)) {
             return false;
         }
         
+        // sort each string array
         sort($first);
         sort($second);
 
+
+        //convert string array into string and compare both strings
         return implode("",$first) == implode("",$second);
     }
 
