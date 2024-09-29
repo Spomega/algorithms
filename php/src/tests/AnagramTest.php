@@ -11,7 +11,14 @@ class AnagramTest extends TestCase
     {
         $anagramChecker =  new Anagram();
 
-        $this->assertTrue($anagramChecker->anagramCharMapApproach("Hello","lleho"));
+        $this->assertTrue($anagramChecker->anagramCharMapApproach("The eyes","they see"));
+    }
+
+    public function testAnagramSortApproach()
+    {
+        $anagramChecker =  new Anagram();
+
+        $this->assertTrue($anagramChecker->anagramSortApproach("The eyes","they see"));
     }
 
 }
