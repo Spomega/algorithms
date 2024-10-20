@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"AnagramTest::testAnagramMapApproach":0.02,"AnagramTest::testAnagramSortApproach":0}}
+{"version":1,"defects":[],"times":{"AnagramTest::testAnagramMapApproach":0.025,"AnagramTest::testAnagramSortApproach":0,"BinarySearchTest::testBinarySearch":0.007}}
