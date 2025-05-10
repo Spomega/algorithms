@@ -1,0 +1,32 @@
+{
+    "employees": [
+        {
+            "name": "Alice Smith",
+            "salary": 80000,
+            "hireDate": "2018-03-15",
+            "leadershipLevel": 2,
+            "specialContract": null
+        },
+        {
+            "name": "Bob Johnson",
+            "salary": 60000,
+            "hireDate": "2015-06-10",
+            "leadershipLevel": 1,
+            "specialContract": 4000
+        },
+        {
+            "name": "Carol Lee",
+            "salary": 120000,
+            "hireDate": "2010-11-22",
+            "leadershipLevel": 3,
+            "specialContract": null
+        },
+        {
+            "name": "David Brown",
+            "salary": 75000,
+            "hireDate": "2021-01-05",
+            "leadershipLevel": 0,
+            "specialContract": null
+        }
+    ]
+}
